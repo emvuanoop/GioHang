@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Levents</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <!--Phan header-->
+ <div class="header">
+
+ </div>
+ <!--Phan than-->
+ <main class="main">
+  <div class="form_wrap">
+    <h2 class="title">TẠO TÀI KHOẢN</h2>
+    <form >
+    <div class="form">
+      <div></div>
+  <input type="text" name="register_name" required class=" form__inp" placeholder="Họ và tên">
+  <input type="email" name="register_email" required class=" form__inp" placeholder="Email">
+  <input type="tel" name="register_phone" minlength="10" maxlength="10" class=" form__inp" placeholder="Số điện thoại">
+  <input type="date" name="register_birthday" onclick="this.type='date'" class=" form__inp form__date" placeholder="Ngày sinh">
+  <input type="password " name="register_pass" required class=" form__inp" placeholder="Mật khẩu">
+  <input type="password" name="register_repass" required class=" form__inp" placeholder="Xác nhận mật khẩu">
+  <div class="form_check">
+    <label for="policy" class="fl-con">
+      <input type="checkbox" name="policy" value="yes" id="policy" required class="dp_none">
+      <div  class="form_cbox">
+        
+      </div>
+      <div class="form_ctxt">Tôi đồng ý với các điều khoản và điều kiện, chính sách bảo mật và chính sách cookie</div>
+    </label>
+ </div>
+ <div class="create form_bot">
+  <button class="rs_form">Tạo</button>
+ </div>
+ <div class="dp-block ">
+  Nếu sdt hoặc email của bạn báo đã tồn tại, bấm <a href="">vào đây</a> và login với sdt hoặc email đó với một mật khẩu bất kì để kích hoạt tài khoản hoặc liên hệ với bộ phận cskh của Levents để được hỗ trợ
+ </div>
+  </div>
+    </form>
+
+  </div>
+</main>
+</body>
+</html>
